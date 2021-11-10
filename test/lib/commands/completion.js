@@ -21,7 +21,7 @@ const npm = {
       }
     },
   },
-  cmd: cmd => {
+  cmd: async cmd => {
     return {
       completion: {
         completion: () => [['>>', '~/.bashrc']],
